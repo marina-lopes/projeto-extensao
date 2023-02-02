@@ -1,1 +1,149 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("fonts/Oswald-VariableFont_wght.ttf") format('ttf');
+}
 
+body {
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(38, 38, 38));
+    min-height: 100%;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-size: 450%;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-shadow: 0px 4px 2px rgb(107, 9, 194);
+}
+
+#main-left {
+    position: absolute;
+    margin-top: -11%;
+    margin-left: -2%;
+}
+
+#main-right {
+    margin-top: -11%;
+    margin-left: 67%;
+    transform: scaleX(-1);
+}
+
+#main-right, #main-left {
+    width: 35%;
+    height: 200px;
+}
+
+#sociais {
+    display: flex;
+    justify-content: center;
+}
+
+#botoes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+#botoes>button {
+    width: 14%;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px double rgb(107, 9, 194);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#porque {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#sobre-mim{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#expectativas {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#porque:hover, #sobre-mim:hover, #expectativas:hover {
+    background-color: rgba(98, 18, 209, 0.426);
+}
+
+#porque:active, #sobre-mim:active, #expectativas:active {
+    background-color: rgba(61, 11, 131, 0.426);
+}
+
+/**************** CONTAINERS ****************/
+
+#fechar {
+    display: block;
+    border-radius: 50%;
+    border: 3px double rgb(107, 9, 194);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#fechar:hover {
+    background-color: rgba(98, 18, 209, 0.426);
+}
+
+#fechar:active {
+    background-color: rgba(61, 11, 131, 0.426);
+}
+
+.invisivel {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-shadow: 0px 2px 2px rgb(107, 9, 194);
+    margin-top: 2%;
+}
+
+p {
+    color: white;
+    width: 40%;
+    text-align: justify;
+    margin-left: 30%;
+    font-size: 120%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#secao-porque, #secao-sobremim, #secao-expectativas {
+    position: absolute;
+}
+
+#foto-sobremim {
+    position: absolute;
+    width: 15%;
+    margin-top: -34%;
+    margin-left: 7%;
+    border: 2px solid rgb(107, 9, 194);
+}
+
+#foto-medalhas {
+    width: 15%;
+    margin-left: 7%;
+    margin-top: -17%;
+    border: 2px solid rgb(107, 9, 194);
+}
