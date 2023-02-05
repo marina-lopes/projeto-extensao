@@ -66,7 +66,7 @@ h1 {
     font-weight: bold;
 }
 
-#sobre-mim{
+#sobre-mim {
     font-size: 200%;
     font-weight: bold;
 }
@@ -158,4 +158,141 @@ p {
     width: 20%;
     margin-left: 40%;
     margin-top: 2%;
+}
+
+/**************** RESPONSIVIDADE ****************/
+
+@media only screen and (max-device-width: 900px) {
+        main { width:100%; }
+    }
+
+@media (max-width: 1200px) {
+    main {
+        width: 1000px;
+    }
+    h1 {
+        font-size: 400%;
+    }
+    #main-left, #main-right {
+        position: absolute;
+        width: 30%;
+        height: 190px;
+    }
+    #botoes {
+        margin-top: 12%;
+    }
+    #botoes>button {
+        width: 12%;
+        height: 120px;
+    }
+    #porque {
+        font-size: 150%;
+    }
+    #sobre-mim {
+        font-size: 150%;
+    }
+    #expectativas {
+        font-size: 110%;
+    }
+    #sociais {
+        margin-top: 40vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    main {
+        width: 700px;
+    }
+    h1 {
+        font-size: 340%;
+    }
+    #main-left, #main-right {
+        position: absolute;
+        width: 25%;
+        height: 170px;
+    }
+    #botoes {
+        margin-top: 22%;
+    }
+    #botoes>button {
+        width: 14%;
+        height: 100px;
+    }
+    #porque {
+        font-size: 130%;
+    }
+    #sobre-mim {
+        font-size: 130%;
+    }
+    #expectativas {
+        font-size: 100%;
+    }
+    #sociais {
+        margin-top: 40vh;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 400px;
+    }
+    h1 {
+        font-size: 300%;
+    }
+    #main-left, #main-right {
+        position: absolute;
+        width: 20%;
+        height: 110px;
+    }
+    #botoes {
+        margin-top: 36%;
+    }
+    #botoes>button {
+        width: 24%;
+        height: 100px;
+    }
+    #porque {
+        font-size: 114%;
+    }
+    #sobre-mim {
+        font-size: 114%;
+    }
+    #expectativas {
+        font-size: 85%;
+    }
+    #sociais {
+        margin-top: 40vh;
+    }
+}
+
+@media (max-width: 450px) {
+    main {
+        width: 320px;
+    }
+    h1 {
+        font-size: 250%;
+    }
+    #main-left, #main-right {
+        position: absolute;
+        width: 15%;
+    }
+    #botoes {
+        margin-top: 48%;
+    }
+    #botoes>button {
+        width: 26%;
+        height: 80px;
+    }
+    #porque {
+        font-size: 85%;
+    }
+    #sobre-mim {
+        font-size: 85%;
+    }
+    #expectativas {
+        font-size: 64%;
+    }
+    #sociais {
+        margin-top: 40vh;
+    }
 }
