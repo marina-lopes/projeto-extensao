@@ -142,6 +142,7 @@ p {
 }
 
 #foto-medalhas {
+    position: absolute;
     width: 15%;
     margin-left: 7%;
     margin-top: -12%;
@@ -197,6 +198,12 @@ p {
     #sociais {
         margin-top: 40vh;
     }
+    #foto-sobremim {
+        margin-top: -40%;
+    }
+    #foto-medalhas {
+        margin-top: -23%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -205,6 +212,9 @@ p {
     }
     h1 {
         font-size: 340%;
+    }
+    h2 {
+        font-size: 300%;
     }
     #main-left, #main-right {
         position: absolute;
@@ -230,6 +240,30 @@ p {
     #sociais {
         margin-top: 40vh;
     }
+    #foto-sobremim {
+        margin-top: -54%;
+    }
+    #foto-medalhas {
+        margin-top: -36%;
+    }
+}
+
+@media (max-width: 929px) and (min-width: 765px) {
+    .p-sobremim {
+        min-width: 500px;
+    }
+}
+
+@media (max-width: 765px) and (min-width: 616px) {
+    .p-sobremim {
+        min-width: 400px;
+    }
+}
+
+@media (max-width: 616px) and (min-width: 524px) {
+    .p-sobremim {
+        min-width: 350px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -238,6 +272,9 @@ p {
     }
     h1 {
         font-size: 300%;
+    }
+    h2 {
+        font-size: 250%;
     }
     #main-left, #main-right {
         position: absolute;
@@ -263,6 +300,12 @@ p {
     #sociais {
         margin-top: 40vh;
     }
+    #foto-sobremim {
+        margin-top: -90%;
+    }
+    #foto-medalhas {
+        margin-top: -70%;
+    }
 }
 
 @media (max-width: 450px) {
@@ -271,6 +314,9 @@ p {
     }
     h1 {
         font-size: 250%;
+    }
+    h2 {
+        font-size: 200%;
     }
     #main-left, #main-right {
         position: absolute;
