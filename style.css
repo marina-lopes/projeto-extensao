@@ -136,7 +136,7 @@ p {
 #foto-sobremim {
     position: absolute;
     width: 15%;
-    margin-top: -34%;
+    margin-top: -29%;
     margin-left: 7%;
     border: 2px solid rgb(107, 9, 194);
 }
@@ -144,6 +144,18 @@ p {
 #foto-medalhas {
     width: 15%;
     margin-left: 7%;
-    margin-top: -17%;
+    margin-top: -12%;
     border: 2px solid rgb(107, 9, 194);
+}
+
+#foto-porque {
+    width: 35%;
+    margin-left: 32.5%;
+    margin-top: 2%;
+}
+
+#foto-expectativas {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2%;
 }
